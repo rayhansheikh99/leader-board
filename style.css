@@ -1,3 +1,33 @@
 body{
-    margin: 0;
+    margin: 0 300px;
+    background-color: #F3F1FF;
+}
+.player-head{
+    margin: 0 0 40px 0;
+
+}
+.players{
+background-color: rgb(255, 255, 255);
+padding: 30px;
+
+
+}
+.player-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+    
+}
+.player-info{
+    display: flex;
+}
+.player-photo{
+    width: 56px;
+    height: 56px;
+
+}
+.player-name{
+        line-height: 17px;
+        margin-left: 18px;
 }
