@@ -1,6 +1,50 @@
 body{
+background-color: #F3F1FF;
+margin: 0;
+}
+.players{
     margin: 0 300px;
-    background-color: #F3F1FF;
+    
+}
+.nav-section{
+    background-color: rgb(34, 117, 241);
+    height: 94px;
+}
+.logo{
+position: absolute;
+width: 40px;
+height: 50px;
+left: 300px;
+top: 22px;
+
+
+}
+.web-name{
+position: absolute;
+left: 350px;
+top: 35px;
+margin: 0;
+color: cornsilk;
+
+}
+.menu {
+    padding-top: 35px;
+     position: absolute;
+       right: 400px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: cornsilk;
+    padding: 35px;
+    
+}
+.profile-pic{
+    position: absolute;
+width: 51px;
+height: 51px;
+left: 995px;
+top: 21px;
 }
 .player-head{
     margin: 0 0 40px 0;
